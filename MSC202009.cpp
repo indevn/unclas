@@ -57,7 +57,7 @@ void Solu(int n){
     MergeSort(inInfo,0,n-1,tem);// sort
     
     // clas
-    int lastPos=-100000;
+    int lastPos;
     int mark=0;//合法标记
     int j=0;
     for(int i=40;i>=0;i--){//从到大小开始检索
